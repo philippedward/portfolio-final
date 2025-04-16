@@ -54,9 +54,6 @@
 }
 
 .project-school {
-  display: flex;
-  gap: 50px;
-  align-items: center;
   img {
     width: 70%;
   }
@@ -99,4 +96,55 @@
 /* Style quand le dossier est en cours de déplacement */
 .project-small-recantgle:active {
   cursor: grabbing;
+}
+
+@media (max-width: 1200px) {
+  .project-big-recantgle {
+    width: 1116px;
+    height: 626.938px;
+    background-color: #d9d9d9;
+    border: 2px solid #0101b1;
+  }
+
+  .project-small-recantgle {
+    width: 244.556px;
+    height: 56px;
+    background-color: #d9d9d9;
+    border: 2px solid #0101b1;
+    border-bottom: none;
+    position: relative;
+    z-index: 1;
+    top: 3px;
+    left: 800px;
+  }
+  .project-small-recantgle-2 {
+    width: 244.556px;
+    height: 56px;
+    background-color: #d9d9d9;
+    border: 2px solid #0101b1;
+    border-bottom: none;
+    position: relative;
+    z-index: 1;
+    top: 3px;
+    left: 600px;
+  }
+  .project-small-recantgle-3 {
+    width: 244.556px;
+    height: 56px;
+    background-color: #d9d9d9;
+    border: 2px solid #0101b1;
+    border-bottom: none;
+    position: relative;
+    z-index: 1;
+    top: 3px;
+    left: 100px;
+  }
+  .project-arrow-left,
+  .project-arrow-right {
+    width: 244.556px;
+  }
+
+  .project-school {
+    gap: 0px;
+  }
 }
