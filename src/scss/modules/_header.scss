@@ -1,0 +1,73 @@
+.header-orange {
+  background: radial-gradient(
+    81.58% 81.58% at 50% 41.45%,
+    #f776f5 0%,
+    #ee6b3f 46%,
+    #f11 100%
+  );
+}
+
+.header-orange:hover {
+  background: var(
+    --Grade-blue,
+    radial-gradient(50% 50% at 50% 50%, #f9d960 0%, #ee6b3f 53%, #333df1 100%)
+  );
+  p {
+    color: white;
+  }
+}
+
+.header-pink {
+  background: radial-gradient(
+    73.06% 73.03% at 50.2% 50%,
+    #4949e6 0%,
+    #f776f5 36%,
+    #ee6b3f 84%
+  );
+}
+
+.header-pink:hover {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #333df1 26%,
+    #ee6b3f 61%,
+    #f9d960 100%
+  );
+  p {
+    color: white;
+  }
+}
+
+.header-button {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  mix-blend-mode: none;
+  cursor: pointer;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 43px;
+}
+
+.header-all {
+  display: flex;
+  padding: 34px 72px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-buttons p {
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header-logo {
+  cursor: pointer;
+}

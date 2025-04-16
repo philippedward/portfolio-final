@@ -1,0 +1,41 @@
+.l-header {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  background: #d1cdff;
+  backdrop-filter: blur(2px);
+  mix-blend-mode: difference;
+}
+
+.l-footer {
+  background: url(../img/devon-rex.png), url(../img/footer.jpg);
+  background-size: 400px, cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-blend-mode: overlay;
+}
+
+.l-home {
+  background-image: url(../img/mySelf.png), url(../img/home.jpg);
+  background-size: 636px, cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#l-project-work-background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: blur(3px);
+}
+
+.l-project-work {
+  perspective: 100%;
+}

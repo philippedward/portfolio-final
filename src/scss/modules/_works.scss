@@ -1,0 +1,74 @@
+.work-img {
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.work-img:hover {
+  background-color: black;
+  opacity: 0.3;
+}
+
+.work-carte-2 {
+  margin-top: -40px;
+}
+
+.work-carte-4 {
+  margin-top: -220px;
+  margin-bottom: 200px;
+}
+
+.work-carte-5 {
+  margin-top: 200px;
+}
+
+.work-carte-7 {
+  margin-top: 300px;
+}
+
+.work-carte {
+  border: 2px solid #fff;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+}
+
+.work-brillance {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 0, 255, 0.3),
+    rgba(0, 255, 255, 0.3),
+    rgba(255, 255, 0, 0.3),
+    rgba(255, 0, 0, 0.3),
+    rgba(0, 255, 0, 0.3),
+    rgba(0, 0, 255, 0.3)
+  );
+  background-size: 400% 400%;
+  mix-blend-mode: screen;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  animation: shimmer 6s ease infinite;
+  pointer-events: none;
+}
+
+.work-carte:hover .work-brillance {
+  opacity: 1;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.work-no-scroll {
+  overflow: hidden;
+}

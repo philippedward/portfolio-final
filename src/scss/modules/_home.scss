@@ -1,0 +1,40 @@
+.home-software {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  flex-shrink: 0;
+}
+
+.home-list {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 59px 29px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+.home-list-soft {
+  width: 746px;
+}
+
+.home-purcent p {
+  color: var(--Color-white);
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.home-photo {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  right: 100;
+  top: 50%;
+}
+
+.home-buttom-marg {
+  margin-bottom: 109px;
+}

@@ -1,0 +1,6 @@
+.DS_Store
+.parcel-cache
+dist
+node_modules
+*.mp4
+*.mov

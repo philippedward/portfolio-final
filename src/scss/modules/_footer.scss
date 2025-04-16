@@ -1,0 +1,118 @@
+.footer-green {
+  background: var(
+    --Grade-green,
+    radial-gradient(
+      81.58% 81.58% at 50% 41.45%,
+      #eea83f 0%,
+      #e8c751 33.5%,
+      #a4ca45 70.5%
+    )
+  );
+}
+
+.footer-green:hover {
+  background: var(
+    --Grade-pink,
+    radial-gradient(50% 50% at 50% 50%, #ee90c8 0%, #fb580d 100%)
+  );
+  p {
+    color: white;
+  }
+}
+
+.footer-green:hover .footer-call {
+  background-image: url(../img/call-w.svg);
+}
+
+.footer-green:hover .footer-msg {
+  background-image: url(../img/mail-w.svg);
+}
+
+.footer-call {
+  background-image: url(../img/call.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer-msg {
+  background-image: url(../img/msg.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer-contact {
+  width: 29px;
+  height: 24px;
+}
+
+.footer-button {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 120px;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 53px;
+  margin-top: 30px;
+}
+
+.footer-social,
+.footer-button {
+  cursor: pointer;
+}
+
+.footer-social {
+  width: 47px;
+  height: 46px;
+}
+
+.footer-social-1 {
+  background-image: url(../img/linkedin.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer-social-2 {
+  background-image: url(../img/behance.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer-social-3 {
+  background-image: url(../img/instagram.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer-social-1:hover {
+  background-image: url(../img/linkedin-vert.png);
+}
+
+.footer-social-2:hover {
+  background-image: url(../img/behance-vert.png);
+}
+
+.footer-social-3:hover {
+  background-image: url(../img/instagram-vert.svg);
+}
+
+.footer-buttons p {
+  color: var(--color-electric-blue, #4949e6);
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
